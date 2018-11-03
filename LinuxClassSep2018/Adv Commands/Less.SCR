@@ -1,0 +1,42 @@
+Search Navigation
+-------------------
+
+Forward Search
+-----------------
+/ => search for a pattern which will take you to the next occurrence.
+n => for next match in forward
+N => for previous match in backward
+
+Backward Search
+------------------
+? => search for a pattern which will take you to the previous occurrence.
+n => for next match in backward direction
+N => for previous match in forward direction
+
+Searching Path
+----------------
+In Forward Direction : /\/home\/skyess\/
+In Backward Direction : ?/home/skyess/
+ 
+Screen Navigation
+-------------------
+
+CTRL+F => Forward One Window
+CTRL+B => Backward One Window
+CTRL+D => Forward Half Window
+CTRL+U => Backward Half Window
+
+Line navigation
+-------------------
+
+j => Navigate Forward By One Line
+k => Navigate Backward By One Line
+
+Miscellneous Navigations
+--------------------------
+G => Go To The End of File
+g => Go To The Start of File
+q OR ZZ => Exit The Less Pager
+
+
+

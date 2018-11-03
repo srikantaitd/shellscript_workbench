@@ -1,0 +1,22 @@
+clear
+sqlplus -s /nolog << EOF
+CONNECT scott/tiger
+SPOOL /home/oracle/sqlscripts/EmpData04.lst
+SET LINESIZE 120
+SET PAGESIZE 20
+COL EMPNO FOR 9999
+COL ENAME FOR A10
+COL MGR FOR 9999
+COL DEPTNO FOR 99
+SELECT *
+FROM Emp;
+SPOOL OFF
+
+SPOOL /home/oracle/sqlscripts/DeptData04.lst
+SET LINESIZE 120
+SET PAGESIZE 20
+SELECT *
+FROM Dept;
+SPOOL OFF
+EXIT;
+EOF

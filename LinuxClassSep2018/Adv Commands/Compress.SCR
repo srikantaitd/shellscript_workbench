@@ -1,0 +1,4 @@
+Compress A File To .z Format
+====================
+compress "FileName"
+compress -v "FileName"

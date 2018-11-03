@@ -1,0 +1,9 @@
+CONNECT SCOTT/tiger
+SPOOL /home/oracle/sqlscripts/deptdata.out
+SET VERIFY OFF
+SET LINESIZE 120
+SET PAGESIZE 20
+SELECT Deptno, Dname, Loc
+FROM Dept;
+SPOOL OFF
+EXIT

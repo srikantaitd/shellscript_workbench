@@ -1,0 +1,23 @@
+Display File Systems And Their Disk Usage
+==============================
+df
+
+Display Information of All The File Systems
+=============================
+df -a 
+
+Display in "Human Readable" Formatting
+===========================
+df -h
+
+Display Grand Total in The Output
+======================
+df -h --total
+
+List Inodes (Instead of Block Usage)
+========================
+df -i
+
+Print File System Type
+===============
+df -T

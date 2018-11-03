@@ -1,0 +1,15 @@
+Compare Two Files
+=============
+comm "FileName01" "FileName02"
+
+List Files Exist in Older Version But Not in The Newer Version 
+========================================
+comm -23 "FileName01" "FileName02"
+
+Files Which Were Not There in The Old Version, But Has Been Added in The New Version
+==========================================================
+comm -13 "FileName01" "FileName02"
+
+Know The List of Files Which Have Been Retained, OR Common in Both The Versions
+=======================================================
+comm -12 "FileName01" "FileName02"

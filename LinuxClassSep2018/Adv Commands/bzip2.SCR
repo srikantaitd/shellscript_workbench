@@ -1,0 +1,21 @@
+Compress A Single File
+===============
+bzip2 "FileName"
+
+Compress Multiple Files At Once
+======================
+bzip2 "FileName01" "FileName02" "FileName03"
+
+Compress A Single File And Keep The Original
+==============================
+bzip2 -c "FileName" > "FileName".bz
+bzip2 -k  "FileName"
+
+Decompress A bzip2 Compressed File
+==========================
+bzip2 -d "FileName"
+bunzip2 "FileName"
+
+List Compression Information
+====================
+bzip2 -v "FileName"

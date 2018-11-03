@@ -1,0 +1,28 @@
+Removes Duplicate Lines And Displays Unique Lines
+==================================
+$ uniq "FileName"
+
+Count Number of Occurrences Using -c Option
+===============================
+$ uniq -c "FileName"
+
+Print Only Duplicate Lines Using -d Option
+============================
+$ uniq -d "FileName"
+
+Print Only Unique Lines Using -u Option
+==========================
+$ uniq -u "FileName"
+
+Limit Comparison To ‘N’ Characters Using -w Option
+==================================
+$ uniq -c -w 8 "FileName"
+$ uniq -D -w 8 "FileName"
+
+Avoid Comparing First ‘N’ Characters Using -s Option
+===================================
+$ uniq -D -s 2 "FileName"
+
+Avoid Comparing First ‘N’ Fields Using -f Option
+===============================
+$ uniq -D -f 2 "FileName"

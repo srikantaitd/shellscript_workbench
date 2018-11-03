@@ -1,0 +1,6 @@
+WHERE Deptno = 
+              *
+ERROR at line 3:
+ORA-00936: missing expression 
+
+

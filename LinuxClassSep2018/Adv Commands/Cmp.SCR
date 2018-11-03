@@ -1,0 +1,19 @@
+Compare Two Files And Output Results
+==========================
+cmp "FileName01" "FileName02"
+
+Skip Same Number of Initial Bytes From Both Input Files
+=====================================
+cmp -i 5 "FileName01" "FileName02"
+
+Skip Different Number of Initial Bytes From Both Input Files
+=======================================
+cmp -i 5:2 "FileName01" "FileName02"
+
+Display Bytes That Differ
+================
+cmp -l -i 5:2 "FileName01" "FileName02"
+
+Specify Upper Limit on Number of Bytes To Compare
+===================================
+cmp -l -n 10 -i 5:2 "FileName01" "FileName02"

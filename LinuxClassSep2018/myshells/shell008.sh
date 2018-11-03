@@ -1,0 +1,15 @@
+clear
+echo "`logname` Your Environment Configuration Details"
+echo "----------------------OoO-----------------------"
+echo "The Host To Which You Are Connected is		: $HOSTNAME"
+echo "The Shell Configured To You is			: $SHELL"
+echo "The Command History That is Stored is		: $HISTSIZE"
+echo "The User Name With Which You Are Connected	: $USER"
+echo "The Mail Directory Path Configured is		: $MAIL"
+echo "The Default Present Working Directory is		: $PWD"
+echo "The Java Home Path Configured is 			: $JAVA_HOME"
+echo "The Default Log Name of Your Connection is 	: $LOGNAME"
+echo "The Default Home Directory Configured is		: $HOME"
+echo
+echo "--------------------OoO-------------------------"
+echo "Finished Printing The Environment Information For User : $USER"

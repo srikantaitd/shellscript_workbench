@@ -1,0 +1,37 @@
+Convert Lower Case To Upper Case
+=======================
+$ tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
+tr [:lower:] [:upper:]
+$ tr a-z A-Z
+
+Translate Braces into Parenthesis
+=======================
+$ tr '{}' '()' < InputFileName > OutputFileName
+
+Translate White-Space To Tabs
+=====================
+$ echo "SkyEss Techno Solutions Pvt. Ltd." | tr [:space:] '\t'
+
+Squeeze Repetition of Characters Using -s
+============================
+$ echo "SkyEss          Techno               Solutions                Pvt. Ltd." | tr -s [:space:] ' '
+
+Delete Specified Characters Using -d Option
+=============================
+$ echo "Hai Friends" | tr -d 'a'
+
+Remove All The Digits From The String
+==========================
+$ echo "SkyEss Techno Solutions Pvt. Ltd. 04064640047" | tr -d [:digit:]
+
+Complement The Sets Using -c Option
+=========================
+$ echo "SkyEss Techno Solutions Pvt. Ltd. 04064640047" | tr -cd [:digit:]
+
+Remove All Non-Printable Character From a File
+================================
+$  tr -cd [:print:] < "File_Name"
+
+Join All The Lines in A File into A Single Line
+=============================
+$ tr -s '\n' ' ' < "FileName"

@@ -1,0 +1,27 @@
+Print First 10 Lines
+--------------------
+head <FileName>
+
+Print Last 10 Lines
+--------------------
+tail <FileName>
+
+Print Last 3 Lines
+------------------
+tail -n3 <FileName>
+
+Print First 3 Lines
+-------------------
+head -n3 <FileName>
+
+Print From 10th Line To Last Line
+-----------------------------------
+tail -n+10 <FileName>
+
+Print All Lines Except Last 10 Lines
+-------------------------------------
+head -n-10 <FileName>
+
+Print Range of Lines From 4th Line To 10th Line
+-------------------------------------------------
+head -n10 <FileName> | tail -n+4

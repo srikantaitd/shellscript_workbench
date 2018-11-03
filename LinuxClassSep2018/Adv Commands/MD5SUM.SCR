@@ -1,0 +1,12 @@
+Find The md5um of a File
+=================
+md5sum "FimeName"
+
+ Check All md5sum’s From File
+ ====================
+ md5sum -c "FimeName"
+
+Generate md5sum of The Data
+====================
+echo -n "Your Text" | md5sum
+echo -n "Your Text OR Value" | md5sum | awk '{print $1}'

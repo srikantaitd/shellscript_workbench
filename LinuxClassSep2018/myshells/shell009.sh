@@ -1,0 +1,7 @@
+firstname="Sathish"
+middlename="Kumar"
+lastname="Yellanki"
+echo "The First Name is : $firstname"
+echo "The Middle Name is : $middlename"
+echo "The Last Name is : $lastname"
+echo "The Full Name is : $firstname $middlename $lastname" 

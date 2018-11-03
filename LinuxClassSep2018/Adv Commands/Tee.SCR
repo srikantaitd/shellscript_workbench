@@ -1,0 +1,19 @@
+Write The Output Both To The Screen (Stdout) And To The File
+=========================================
+$ ls | tee "FileName"
+
+Append To The File Using The Option –a
+===========================
+$ ls | tee –a "FileName"
+
+Save The Output To File And Display The Sorted Data
+===================================
+$ who | tee "FileName" | sort
+
+Write The Output To Multiple Files
+=======================
+$ ls | tee "FileName01"  "FileName02" "FileName03"
+
+Save The Output To File And Count The Lines
+==============================
+$ who | tee /dev/tty | wc -l

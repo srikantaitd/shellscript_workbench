@@ -1,0 +1,7 @@
+Displays Paths of Each Executable
+=======================
+$ which ls gdb open grep
+
+Display All The Paths of A File 
+====================
+$ which -a  "FileName"
