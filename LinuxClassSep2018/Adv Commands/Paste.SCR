@@ -1,3 +1,0 @@
-Merge File Lines
-===========
-$ paste "FileName01" "FileName02" "FileName03"
