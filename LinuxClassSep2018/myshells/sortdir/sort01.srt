@@ -1,6 +1,0 @@
-We Can Have Combination in Parameters
-Parameters Will Control The Command
-Making A Command To Work Needs Typing
-Linux OR Unix is An Operating System
-Commands in Linux OR Unix Are Executed At CLI
-
